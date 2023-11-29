@@ -49,6 +49,7 @@ html{
 
 }
 
+
 /*MAIN CONTAINER*/
 
 .container{
@@ -78,7 +79,7 @@ header{
     align-items: center;
     padding: 30px 25px;
     height: 120px;
-    background-color: white;
+    background-color:  white ;
     z-index: inherit;
     width: 100%;
 }
@@ -123,7 +124,7 @@ header{
   
 
 .navbar-nav{
-    background: blue;
+    background: #25008C;
     position: absolute;
     top: 150px;
     left: 25px;
@@ -174,7 +175,7 @@ header{
     top: -19px;
     right: -20px;
     border: 20px solid transparent;
-    border-left-color: blue;
+    border-left-color: #25008C;
     transform: rotate(45deg);
 }
 
@@ -204,7 +205,7 @@ header{
 }
 
 .nav-toggle-btn .line {
-    background: blue;
+    background: #25008C;
     width: 100%;
     height: 2px;
     transition: var(--default-transition);
@@ -293,11 +294,15 @@ header{
 /*ABOUT*/
 
 .about{
-    background-image: url(./images/imgabout.jpg);
+    background-image: url(./images/about.png);
     height: 800px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
+
+
 
 .animate{
     width: 40%;
@@ -312,7 +317,7 @@ header{
     animation-duration: 4s;
     animation-name: slidein;
     float: right;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .box h2{
@@ -648,7 +653,7 @@ transform: translateX(-50%);
 /*FOOTER*/
 .footer{
     height: 80px;
-    background-color: blue;
+    background-color: #25008C;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -684,18 +689,23 @@ transform: translateX(-50%);
 
     .nav-link{
    
-        color: blue;
+        color: #25008C;
+    }
+
+    .nav-link:hover{
+        color: #23A4F5 ;
     }
 
     .btn{
-        background: blue;
+        background: #25008C ;
         color: var(--very-dark-desaturated-blue);
         transition: var(--default-transition);
+        color: white;
     }
 
     .btn:hover{
-        background: hsla(0, 0%, 100%, 0.3);
-        color: black;
+        background: #23A4F5;
+      
     }
 
     .nav-toggle-btn{
