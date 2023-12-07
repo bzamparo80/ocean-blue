@@ -344,7 +344,7 @@ header{
 }
 
 .buttonv:hover{
-    background-color: #23A4F5;
+    background-color: ;
 }
 
 /*VER MAS*/
@@ -356,7 +356,7 @@ header{
 }
 
 .columna1{
-    margin: 150px;
+    margin: 100px;
 }
 
 .columna1 h2{
@@ -376,13 +376,17 @@ header{
 
 .columna1 p{
     color: #25008C;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
 }
 
 .columna2{
     text-align: center;
     margin: auto;
+}
+
+.columna2 img{
+    height: 480px;
 }
 
 /*SERVICES*/
@@ -426,7 +430,6 @@ header{
     grid-gap: 10px;
     margin-left: 130px;
     margin-right:130px;
-    margin-top: 30px;
     grid-row-gap: 30px;
 
                         
@@ -435,10 +438,10 @@ header{
 .services::after{
     content: "";
     display: block;
-    height: 190px;
+    height: 140px;
     width: 100%;
     background-color: #25008C;
-    transform: translateY(-380px);
+    transform: translateY(-280px);
     position: absolute;
     z-index: 1;
 
@@ -453,11 +456,11 @@ header{
 }
 
 .box-services img{
-    width: 200px;
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     margin: auto;
 }
 
