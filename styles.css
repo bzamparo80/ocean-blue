@@ -481,6 +481,124 @@ header{
 }
 
 
+/*EQUIPO*/
+
+.equipo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.equipo h2{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+    align-items: end;
+}
+
+/* Nuevo estilo para dividir "NUESTRO" y "EQUIPO" en dos líneas */
+.equipo h2 span {
+    white-space: nowrap; /* Evitar que las palabras se rompan */
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajusta según sea necesario */
+}
+
+
+.li{
+    padding: 13px;
+    margin: auto;
+}
+
+.img-equipo{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.jime{
+    background: linear-gradient(to top, #FF9ABD, #ff9abd7c);
+    
+}
+
+.jime:hover{
+    background-color: #25008C;
+    transition: 0.3s;
+}
+
+
+.caro{
+    background: linear-gradient(to top, #FFE29B , #ffe39b7c);
+    
+}
+
+.caro:hover{
+    background-color: #25008C;
+    transition: 0.3s;
+}
+
+.santi{
+    background: linear-gradient(to top, #99F7E4 , #99f7e485);
+    
+}
+
+.santi:hover{
+    background-color: #25008C;
+    transition: 0.3s;
+}
+
+.esteban{
+    background:linear-gradient(to top, #FFC599 , #ffc59977);
+}
+.esteban:hover{
+    background-color: #25008C;
+    transition: 0.3s;
+}
+
+.damian, .juan{
+    background:linear-gradient(to top, #CCEFFF , #ccefff89);
+}
+.damian:hover, .juan:hover{
+    background-color: #25008C;
+    transition: 0.3s;
+}
+
+.xx{
+    background:linear-gradient(to top, #C0B1E0 , #c0b1e086);
+}
+.xx:hover{
+    background-color: #25008C;
+    transition: 0.3s;
+}
+
+
+
+
+.img-equipo img{
+    height: 300px;
+    transform: translateY(3px) scale(1);
+    transition: transform 0.3s;
+}
+
+.img-equipo img:hover{
+    transform: scale(1.08);
+}
+
+.datos{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+
 
 
 /*PORTFOLIO - hacer columnas diferentas hasta 980px. Para mobile, que las dos midan lo mismo, si no se deforma mucho*/
@@ -710,6 +828,7 @@ transform: translateX(-50%);
     bottom: 25px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
     right: 25px; /* Ajusta la distancia desde la derecha según tu preferencia */
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    color: #3BE079;
 }
 
 .whatsapp-button i {
